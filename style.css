@@ -68,3 +68,34 @@ header{
     border-radius: 5px;
     padding: 5px 20px;
 }
+/* main tag latest video code start */
+main{
+    background-color: #2D236A;
+}
+#main-section{
+    width: 1100px;
+    margin: 0 auto;
+    padding: 50px 0px;
+}
+.video{
+    display: flex;
+    justify-content: space-between;
+}
+.latest{
+    font-size: 20px;
+    color: #04AA6D;
+    font-weight: bold;
+}
+.page{
+    color: #04AA6D;
+}
+.page span{
+    color: red;
+    background-color:black;
+    border:1px solid white ;
+    margin: 0px 10px;
+
+    padding: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
