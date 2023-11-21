@@ -130,3 +130,34 @@ main{
     color: gray;
     margin-top: 10px;
 }
+/* next page code start previous */
+.previous-button{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.previous-button a{
+    text-decoration: none;
+    color: white;
+}
+.previous-button h3 a{
+    background-color: #04AA6D;
+    padding: 10px 25px;
+    border-radius: 5px;
+    transition: 1s;
+}
+.previous-button h3 a:hover{
+    background-color: #04aa6d46;
+}
+.previous-button div a{
+    margin: opx 10px;
+    background-color: antiquewhite;
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+}
+.previous-button div a:first-child{
+    background-color: #04AA6D;
+    color: white;
+}
