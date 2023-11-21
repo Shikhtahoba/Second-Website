@@ -10,6 +10,7 @@ nav{
     justify-content: space-between;
     background-color: #1A1244;
     padding: 10px 150px;
+    border-bottom: 4px solid #401E63;
     
 }
 nav ul{
@@ -34,4 +35,36 @@ nav ul li a:hover{
     background-color: black;
     color: red;
     border-radius: 5px;
+}
+/* hero area search code start */
+
+header{
+    background-image: url(image/360_F_268488616_wcoB2JnGbOD2u3bpn2GPmu0KJQ4Ah66T.jpg);
+    padding: 200px 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.search-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search-1 i{
+    color: red;
+    background-color: green;
+    font-size: 25 px;
+    height: 40px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.search-1 input{
+    width: 500px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 5px 20px;
 }
