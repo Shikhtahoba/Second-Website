@@ -5,7 +5,7 @@
 
 /* navigation bar code start */
 nav{
-
+    
     display: flex;
     justify-content: space-between;
     background-color: #1A1244;
@@ -13,8 +13,15 @@ nav{
     border-bottom: 4px solid #401E63;
     position: sticky;
     top: 0;
-    
 }
+nav ul li a{
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+    
+    
+
 nav ul{
     display: flex;
 }
@@ -25,9 +32,6 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     color: white;
-    font-weight: bold;
-    padding: 10px 20px;
-    transition: 1s;
 }
 nav div{
     color: white;
