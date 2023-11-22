@@ -1,0 +1,90 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation bar code start */
+nav{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #1A1244;
+    padding: 10px 150px;
+    border-bottom: 4px solid #401E63;
+    position: sticky;
+    top: 0;
+}
+nav ul li a{
+    padding: 10px 20px;
+    font-weight: bold;
+    transition: 1s;
+}
+    
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}  
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style-type: none;
+    margin: 10px 10px;
+}
+
+nav div{
+    color: white;
+    font-size: 20px;
+}
+nav ul li a:hover{
+    background-color: black;
+    color: red;
+    border-radius: 5px;
+}
+
+form{
+    width: 700px;
+    background-color: palevioletred;
+    margin: 80px auto;
+    padding: 40px 0px;
+    box-shadow: 5px 5px 5px 5px gray;
+}
+form h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.text-1 input{
+    display: block;
+    margin:20px auto;
+    width: 400px;
+    height: 30px;
+    border: none;
+    padding: 5px 20px;
+    border-radius: 30px;
+}
+form textarea{
+    display: block;
+    margin:20px auto;
+    width: 400px;
+    height:;
+    padding: 10px 20px;
+    border-radius: 15px;
+    border: none;
+    font-size: 17px;
+}
+.button-1{
+    display: block;
+    margin: auto;
+    font-size: 17px;
+    padding: 10px 20px;
+    width: 400px;
+    height: 40px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    background: linear-gradient(to right,blue,blueviolet,aqua);
+    color: white;
+}
